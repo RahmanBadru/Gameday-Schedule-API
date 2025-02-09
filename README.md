@@ -108,8 +108,8 @@ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/sports-api:sports-a
   -Deploy the API to a stage (e.g., prod) and note the endpoint URL.
 
 - Test the System
-Use a browser or curl to test:
-`curl https://<api-gateway-id>.execute-api.us-east-1.amazonaws.com/prod/sports`
+  - Use a browser or curl to test:
+  `curl https://<api-gateway-id>.execute-api.us-east-1.amazonaws.com/prod/sports`
 
 
 ### Key Learnings:
